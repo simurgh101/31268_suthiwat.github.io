@@ -93,17 +93,31 @@ p {
     filter: grayscale(0) opacity(1);
 }
 
+table tr:nth-child(even){background-color: #f2f2f2;}
+
 table {
     border-collapse: collapse;
     width: 50%;
     margin: auto;
-
 }
-
+table tr:hover {
+    background-color: #ddd;
+}
 table td, table th {
-  border: 1px solid #ddd;
+  border: 1px solid white;;
   padding: 1rem;
   font-size: 1rem;
+}
+
+
+#education th {
+    background-color: dodgerblue;
+    color: white;
+}
+
+#job th {
+    background-color: blueviolet;
+    color: white;
 }
 
 
