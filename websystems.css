@@ -46,6 +46,7 @@ p {
     margin: 1rem;
 }
 
+
 .column {
     display: flex;
     flex-direction: row;
@@ -91,6 +92,14 @@ p {
 .active {
     background-color: gray;
     filter: grayscale(0) opacity(1);
+}
+
+.comment {
+    text-align: left;
+}
+
+.comment li {
+    font-size: 1.5rem;
 }
 
 table tr:nth-child(even){background-color: #f2f2f2;}
